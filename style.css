@@ -1,33 +1,82 @@
-body { 
-	background-color: grey;
+body {
+	background-color: Grey;
+	margin: 50px;
+    width: auto;
+}
+
+h3, h4 {
+	color: Grey;
+	text-align: center;
+	font-family: Arial;
 }
 
 .header {
 	background-color: LightGrey;
-	text-align: center;
-	font-family: Arial;
-	font-color: grey;
-}
-
-.header h1 {
-	color: Grey;
 }
 
 .nav {
 	background-color: LightGrey;
+}
+
+.container {
 	text-align: center;
 	font-family: Arial;
+	height: 250px;
 }
 
-.nav h1 {
-	color: Grey;
-}
-
-.leftcol {
-    width:170px;
+.section {
+    width:50%;
     height:auto;
     float:left;
     background-color: LightGrey;
-	text-align: center;
-	font-family: Arial;
+    height: 250px;
  }
+
+ .article {
+    height:auto;
+    background-color: Grey;
+	margin: 10px;
+	height: 175px;
+	padding: 1px;
+ }
+
+.article h4 {
+	color: lightGrey;
+ }
+
+ .this {
+    height:auto;
+    background-color: lightGrey;
+	margin: 10px;
+	height: 47px;
+	padding: 1px;
+ }
+
+.this h3 {
+	color: grey
+ }
+
+.that {
+    height:auto;
+    background-color: lightGrey;
+	margin: 10px;
+	height: 47px;
+	padding: 1px;
+	
+ }
+
+.that h4 {
+	color: Grey;
+ }
+
+.aside {
+    width: 47%;
+    height:auto;
+    background-color: LightGrey;
+	float: right;
+	height: 250px;
+ }
+
+.footer {
+	background-color: LightGrey;
+}
