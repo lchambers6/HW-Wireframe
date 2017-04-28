@@ -1,0 +1,33 @@
+body { 
+	background-color: grey;
+}
+
+.header {
+	background-color: LightGrey;
+	text-align: center;
+	font-family: Arial;
+	font-color: grey;
+}
+
+.header h1 {
+	color: Grey;
+}
+
+.nav {
+	background-color: LightGrey;
+	text-align: center;
+	font-family: Arial;
+}
+
+.nav h1 {
+	color: Grey;
+}
+
+.leftcol {
+    width:170px;
+    height:auto;
+    float:left;
+    background-color: LightGrey;
+	text-align: center;
+	font-family: Arial;
+ }
